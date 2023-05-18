@@ -1,8 +1,10 @@
 # Hackintosh-4-Lenovo-Ideapad-Flex5-15IIL05-Guide-OpenCore-EFI
+
 This is a OpenCore EFI and Hackintosh install instructions for Lenovo Ideapad Flex5-15IIL05 model
 
+这是适用于联想 Ideapad Flex5-15IIL05 2020 款的 Hackintosh 安装教程与 EFI 配置打包
 
-#Specifications
+## Specifications / 设备配置参数
 | Parts 配置  | Name 名称  | Status 状态 |
 | :------------ |:---------------:| :-----:|
 | CPU      | i7 1065g7 | ☑️ |
@@ -15,7 +17,9 @@ This is a OpenCore EFI and Hackintosh install instructions for Lenovo Ideapad Fl
 | Bluetooth 蓝牙 | DW1560 | ☑️ DW1560 / ☑️ AX2xx / ☑️ AC95xx |
 | Audio 声卡| ALC257 | ☑️ |
 | Keyboard 键盘| PS2 | ☑️ |
-| SDCard reader 读卡器| Realtek | ☑️ |
+| SDCard reader 读卡器| BayHub Tech | ❌ |
+
+## Functional status / 设备工作情况
 * Fully working except HDMI output / 除了 HDMI 输出，基本都驱动工作了
 
 ### Hibernation / 休眠
@@ -30,7 +34,7 @@ This is a OpenCore EFI and Hackintosh install instructions for Lenovo Ideapad Fl
 3. Set Graphics mode from Switchable to UMA only / 设置显卡模式为 UMA 仅核显模式
 * Graphics mode is only available for 4K display model / 显卡模式选项只有 4K 屏幕的机型才有
 
-## 4K Display issue / 4K 分辨率屏幕问题
+## 4K Display model issue / 4K 分辨率屏幕问题
 ##### 4K diplay issue's solutions in installation and setup wizard / 4K 分辨率机型在安装向导与设置向导时遇到的问题解决方法
 If your device model is 4K screen display, booting into the installation wizard will cause flicking and display content incorrectly, which makes you unable to read anything from the screen, the solution for this situation is by inject 1080p screen EDID data to DP properties
 
@@ -57,29 +61,29 @@ When you finished the installation process after a couple of reboots, you need t
 # Instrucions for Setup wizard / 设置向导通过方法
 ### Lenovo Flex 5 15-IIL05 4K Display Bug Trick Bypass Instructions 
 ### 联想 Flex5 15-IIL05 4K 显示屏 BUG 设置向导通过方法       
-Step 1: Language
-步骤一：语言
+- [ ] Step 1: Language
+- [ ] 步骤一：语言
 
-Press  Tab  3 Times and hit Space to Next page
+Press  Tab  3 times and hit Space to Next page
 
 按三下 Tab 然后按Space进入下一页
 
-Step 2: IME
-步骤二：输入法
+- [ ] Step 2: IME
+- [ ] 步骤二：输入法
 
 Same as Step 1
 
 和步骤一一样
 
-Step 3: Accessibility
-步骤三：辅助功能
+- [ ] Step 3: Accessibility
+- [ ] 步骤三：辅助功能
 
-Press  Tab  6 Times then hit space to next
+Press  Tab  6 times then hit space to next
 
 按六下 Tab 然后Space确定，进入下一页
 
-Step 4: Network
-步骤四：网络
+- [ ] Step 4: Network
+- [ ] 步骤四：网络
 
 Choose No network then Press  Tab  2 times to continue
 选择不连接网络，然后按两次 Tab 继续
@@ -87,22 +91,22 @@ Choose No network then Press  Tab  2 times to continue
 Do it again when show it to ask network connected is needed
 出现提示，重复操作
 
-Step 5: PC transfer
-步骤五：数据转移
+- [ ] Step 5: PC transfer
+- [ ] 步骤五：数据转移
 
 Press  Tab  3 times to choose later
 
 直接选择以后
 
-Step 6: Conditions
-步骤六：条款
+- [ ] Step 6: Conditions
+- [ ] 步骤六：条款
 
 Press  Tab  2 times and hit space to continue
 
 按两下 Tab 然后空格键确定继续
 
-Step 7: Create your account
-步骤七：创建账户
+- [ ] Step 7: Create your account
+- [ ] 步骤七：创建账户
 
 Typing your account name and password and Tips(optional)
 输入账户名称和密码、提示语（可选）
@@ -110,36 +114,36 @@ Typing your account name and password and Tips(optional)
 Press  Tab  2 times and hit space to finish account create process
 按两下 Tab 然后空格确定继续
 
-Step 8: Location and GPS
-步骤八：位置与定位
+- [ ] Step 8: Location and GPS
+- [ ] 步骤八：位置与定位
 
 Press  Tab  3 times to finish it
 
 按三下 Tab 然后空格确定
 
-Step 9: Time Locale
-步骤九：时区
+- [ ] Step 9: Time Locale
+- [ ] 步骤九：时区
 
 Press  Tab  2 times to continue
 
 按两下 Tab 然后空格继续
 
-Step 10: Analyze
-步骤十：分析
+- [ ] Step 10: Analyze
+- [ ] 步骤十：分析
 
 Press  Tab  5 times to continue
 
 按五下 Tab 然后空格继续
 
-Step 11: Screen usage time
-步骤十一：屏幕使用时间
+- [ ] Step 11: Screen usage time
+- [ ] 步骤十一：屏幕使用时间
 
 Press  Tab  and hot space to continue
 
 直接点击稍后设置
 
-Step 12: Siri
-步骤十二：Siri
+- [ ] Step 12: Siri
+- [ ] 步骤十二：Siri
 
 Press  Tab  and space to uncheck Siri option
 取消勾选Siri
@@ -147,8 +151,8 @@ Press  Tab  and space to uncheck Siri option
 Press  Tab  3 times and hit space to next page
 按三下 Tab 然后空格确定
 
-Step 13: Appearance
-步骤十三：外观
+- [ ] Step 13: Appearance
+- [ ] 步骤十三：外观
 
 Press  Tab  4 times to finish the whole setup guide!!!
 
@@ -159,15 +163,33 @@ Press  Tab  4 times to finish the whole setup guide!!!
 
 ![WechatIMG5](https://github.com/chundk/Hackintosh-4-Lenovo-Ideapad-Flex5-15IIL05-Guide-OpenCore-EFI/assets/17920798/70e47962-c90a-4ec5-a7d7-4706bd3e9a64)
 
+# Kext load / Kext 驱动加载
 ### VoodooI2C
 The VoodooI2C will only work for this model Trackpad and Touchscreen on Polling mode, so the boot arguments: `-vi2c-force-polling` is essentially needed, do not remove it.
 
 VoodooI2C 仅在轮询模式下适用于此型号的触控板和触摸屏，因此引导参数：`-vi2c-force-polling` 本质上是必需的，请勿将其删除
 
-### Whatevergreen
-Both `AAPL,ig-platform-id`, and `device-id are not configured`, the Whatevergreen will configure that automatically for your device, so this EFI should be compatible with the i5 processor model
+### WhateverGreen
+Both `AAPL,ig-platform-id`, and `device-id` are not configured, the Whatevergreen will configure that automatically for your device, so this EFI should be compatible with the i5 processor model
 
 `AAPL,ig-platform-id` 和 `device-id` 都没有配置，Whatevergreen 会自动为你的设备配置，所以这个 EFI 应该与 i5 处理器型号兼容
+
+### itwlm
+AirportItlwm.kext for Intel AX2xx and AC95xx Wireless not enabled by default, you need to enable it manaully if your device is one of Intel wilreless
+
+AirportItlwm.kext 默认没有被启用，如果你的设备使用的是 AX2xx 或者 AC95xx 无线网卡，请自己手动勾选驱动选项
+
+### IntelBluetoothFirmware
+BlueToolFixup.kext, IntelBTPatcher.kext, IntelBluetoothFirmware.kext are for Intel Bluetooth, same as above
+
+和上面的 Wi-Fi 一样，默认没有启用，请手动启用。
+
+### DW1560
+DW1560, also known as 94352z, it's my own choice for this Flex5, to set its proper work status, you also need AirportBrcmFixup.kext, AirPortBrcmNIC_Injector.kext, BlueToolFixup.kext, BrcmFirmwareData.kext, BrcmPatchRAM3.kext
+Be sure to set the load order as what I list.
+
+DW1560, 也叫 94352z, 尽管这是免驱的网卡，但依然需要配置补丁让它正确被驱动！加载这几个驱动即可，注意顺序
+AirportBrcmFixup.kext, AirPortBrcmNIC_Injector.kext, BlueToolFixup.kext, BrcmFirmwareData.kext, BrcmPatchRAM3.kext
 
 ### F5 & F6 screen brightness control
 Install Karabiner app to remap / 安装 Karabiner 映射
