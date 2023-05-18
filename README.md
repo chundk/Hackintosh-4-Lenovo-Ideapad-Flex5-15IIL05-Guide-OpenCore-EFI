@@ -61,18 +61,21 @@ Step 1: Language
 步骤一：语言
 
 Press  Tab  3 Times and hit Space to Next page
+
 按三下 Tab 然后按Space进入下一页
 
 Step 2: IME
 步骤二：输入法
 
 Same as Step 1
+
 和步骤一一样
 
 Step 3: Accessibility
 步骤三：辅助功能
 
 Press  Tab  6 Times then hit space to next
+
 按六下 Tab 然后Space确定，进入下一页
 
 Step 4: Network
@@ -80,6 +83,7 @@ Step 4: Network
 
 Choose No network then Press  Tab  2 times to continue
 选择不连接网络，然后按两次 Tab 继续
+
 Do it again when show it to ask network connected is needed
 出现提示，重复操作
 
@@ -87,12 +91,14 @@ Step 5: PC transfer
 步骤五：数据转移
 
 Press  Tab  3 times to choose later
+
 直接选择以后
 
 Step 6: Conditions
 步骤六：条款
 
 Press  Tab  2 times and hit space to continue
+
 按两下 Tab 然后空格键确定继续
 
 Step 7: Create your account
@@ -100,6 +106,7 @@ Step 7: Create your account
 
 Typing your account name and password and Tips(optional)
 输入账户名称和密码、提示语（可选）
+
 Press  Tab  2 times and hit space to finish account create process
 按两下 Tab 然后空格确定继续
 
@@ -107,24 +114,28 @@ Step 8: Location and GPS
 步骤八：位置与定位
 
 Press  Tab  3 times to finish it
+
 按三下 Tab 然后空格确定
 
 Step 9: Time Locale
 步骤九：时区
 
 Press  Tab  2 times to continue
+
 按两下 Tab 然后空格继续
 
 Step 10: Analyze
 步骤十：分析
 
 Press  Tab  5 times to continue
+
 按五下 Tab 然后空格继续
 
 Step 11: Screen usage time
 步骤十一：屏幕使用时间
 
 Press  Tab  and hot space to continue
+
 直接点击稍后设置
 
 Step 12: Siri
@@ -132,6 +143,7 @@ Step 12: Siri
 
 Press  Tab  and space to uncheck Siri option
 取消勾选Siri
+
 Press  Tab  3 times and hit space to next page
 按三下 Tab 然后空格确定
 
@@ -139,10 +151,13 @@ Step 13: Appearance
 步骤十三：外观
 
 Press  Tab  4 times to finish the whole setup guide!!!
+
 按四下 Tab 然后空格确定完成最后一步！
 
 ![WechatIMG3](https://github.com/chundk/Hackintosh-4-Lenovo-Ideapad-Flex5-15IIL05-Guide-OpenCore-EFI/assets/17920798/c904f625-dfd5-4f3d-9026-2aa439fa434b)
 ![WechatIMG4](https://github.com/chundk/Hackintosh-4-Lenovo-Ideapad-Flex5-15IIL05-Guide-OpenCore-EFI/assets/17920798/4a0ed6c6-d1d8-47c1-9cff-91af997b7c6f)
+
+![WechatIMG5](https://github.com/chundk/Hackintosh-4-Lenovo-Ideapad-Flex5-15IIL05-Guide-OpenCore-EFI/assets/17920798/70e47962-c90a-4ec5-a7d7-4706bd3e9a64)
 
 ### VoodooI2C
 The VoodooI2C will only work for this model Trackpad and Touchscreen on Polling mode, so the boot arguments: `-vi2c-force-polling` is essentially needed, do not remove it.
